@@ -23,7 +23,7 @@ async function getResponse(prompt) {
 export const userDiv = (data) => {
     return `
         <div class="flex items-center gap-2 justify-start">
-            <img src="chatbot.jpg" alt="" class="w-10 h-10 rounded-full">
+            <img src="user.jpg" alt="" class="w-10 h-10 rounded-full">
             <p class="bg-[#31a354] text-white p-1 rounded-md shadow-md whitespace-pre-wrap max-w-[80%] text-wrap">${data}</p>
         </div>
     `
